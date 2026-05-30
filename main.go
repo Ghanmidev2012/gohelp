@@ -1,13 +1,7 @@
 package main
 
-import "github.com/Ghanmidev2012/gohelp/helper"
-import "github.com/Ghanmidev2012/gohelp/message"
-	
+import "github.com/Ghanmidev2012/gohelp/time"
 
-
-func main() {
-	helper.SayHello("adam")
-	message.WelcomeMessage("adam")
-	
-	
+func main()  {
+	time.Time()
 }
