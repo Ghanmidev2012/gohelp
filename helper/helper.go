@@ -36,3 +36,12 @@ func Random(min, max int) int{
 	}
 	return rand.Intn(max-min+1) + min
 }
+
+func Input(prompt string) string {
+	var value string
+	fmt.Print(prompt)
+
+	fmt.Scan(&value)
+
+	return value
+}
